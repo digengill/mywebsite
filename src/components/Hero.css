@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.hero__container {
+    border:2px solid greenyellow;
+   
+}
+.hero__content {
+    margin: auto;
+    width: 50%; 
+    font-size: 2vmin;
+
+}
+.hero__text {
+    margin: auto;
+    width: 50%; 
+    border:2px solid rgb(43, 168, 177);
+    padding: 50px;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.hero__text__name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 10vmin;
+    color: #070808;
+}
+
+.hero__text__description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 3vmin;
+    color: #070808;
+
+}
