@@ -1,3 +1,6 @@
 .footer__container {
-    border:2px solid rgb(46, 93, 124);
+    text-align: right;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.884);
+    height:10vh;
 }

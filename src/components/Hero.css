@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 .hero__container {
-    border:2px solid greenyellow;
+    height:100vh;
    
 }
 .hero__content {
@@ -13,7 +13,6 @@
 .hero__text {
     margin: auto;
     width: 50%; 
-    border:2px solid rgb(43, 168, 177);
     padding: 50px;
     text-align: center;
     padding-top: 20%;
@@ -33,4 +32,12 @@
     font-size: 3vmin;
     color: #070808;
 
+}
+
+.hero__down__arrow {
+    bottom:0;
+    position: absolute;
+    margin: auto;
+    width: 50%; 
+    text-align: center;
 }

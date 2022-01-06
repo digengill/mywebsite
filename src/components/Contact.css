@@ -1,0 +1,11 @@
+.contact__container
+{
+    margin: auto;
+    width: 50%; 
+    text-align: center;
+    padding: 10%;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 3vmin;
+
+}
