@@ -6,7 +6,10 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import logo from '../images/logo.png';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import {IconButton} from '@mui/material';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import resume from '../files/resume.pdf';
+
 function Hero() {
     return (
         <div className='hero__container'>
@@ -43,8 +46,21 @@ function Hero() {
                 </Navbar>
                 <div className='hero__text'>
                 <h1 className='hero__text__name'>Digen Gill</h1>
-                <h5 className='hero__text__description'>software engineer</h5>
-
+                <h5 className='hero__text__description'>software engineering <br></br>@ yorku</h5><br></br>
+                <div className="social__links">
+                        <IconButton className="github__btn" color='inherit'  onClick={() => {window.open(
+                        'https://github.com/digengill',
+                        '_blank' // <- This is what makes it open in a new window.
+                        );}} target="_blank" aria-label="github" >
+                            <GitHubIcon className="github__btn" fontSize="large"></GitHubIcon>
+                        </IconButton>
+                        <IconButton className="linkedin_btn" color='inherit'   onClick={() => {window.open(
+                        'https://www.linkedin.com/in/digengill/',
+                        '_blank' // <- This is what makes it open in a new window.
+                        );}} target="_blank" aria-label="linkedin">
+                            <LinkedInIcon fontSize="large"></LinkedInIcon>
+                        </IconButton>
+            </div>
                 </div>
                 <div className='hero__down__arrow'>
                 <Link activeClass="active"
@@ -59,6 +75,7 @@ function Hero() {
                 </Link>
                 </div>
             </div>
+            
         </div>
     )
 }

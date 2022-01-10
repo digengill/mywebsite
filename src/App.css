@@ -1,5 +1,12 @@
 .page__container{
     background: linear-gradient(#5da8de, #8f5dde);
+
+}
+
+.content__container__test {
+  position: absolute;
+  width: 100%;
+
 }
 
 @media( max-width: 990px)

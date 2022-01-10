@@ -2,19 +2,4 @@
     padding-top: 5%;
 }
 
-.social__links {
-    margin: auto;
-    width: 50%; 
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-}
 
-.social__links > * {
-    margin-top: 20vh !important;
-    margin-bottom: 20vh !important;
-    width: 20vh;
-    height: 20vh;
-
-}

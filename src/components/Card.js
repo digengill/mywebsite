@@ -22,7 +22,7 @@ function Card({title, image_src, body, github_link, live_link}) {
                             <ul class="sci">
                                 <li>   
                                     <IconButton className="github__btn" onClick={() => {{window.open(
-                                    {github_link},
+                                    github_link,
                                     '_blank' // <- This is what makes it open in a new window.
                                     );}}} target="_blank" aria-label="github">
                                     <GitHubIcon/>
@@ -31,7 +31,7 @@ function Card({title, image_src, body, github_link, live_link}) {
                                 { live_link != null &&
                                 <li>
                                     <IconButton className="live__btn" onClick={() => {{window.open(
-                                    {github_link},
+                                    live_link,
                                     '_blank' // <- This is what makes it open in a new window.
                                     );}}} target="_blank" aria-label="live">
                                     <CodeIcon/>

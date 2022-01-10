@@ -1,6 +1,7 @@
 .footer__container {
     text-align: right;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.884);
     height:10vh;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+
 }

@@ -2,7 +2,6 @@
 
 .hero__container {
     height:100vh;
-   
 }
 .hero__content {
     margin: auto;
@@ -17,6 +16,7 @@
     text-align: center;
     padding-top: 20%;
     padding-bottom: 20%;
+
 }
 
 .hero__text__name {
@@ -35,8 +35,6 @@
 }
 
 .hero__down__arrow {
-    bottom:0;
-    position: absolute;
     margin: auto;
     width: 50%; 
     text-align: center;
