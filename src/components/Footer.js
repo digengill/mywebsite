@@ -5,10 +5,10 @@ function Footer() {
     return (
         <div className='footer__container'>
             <p>
-                &copy;{new Date().getFullYear()} 
+                Digen Gill &copy;{new Date().getFullYear()} 
             </p>
         </div>
     )
-}
+    }
 
 export default Footer

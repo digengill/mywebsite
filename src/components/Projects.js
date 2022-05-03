@@ -4,7 +4,7 @@ import handwriting_img from '../images/writing.png';
 import os_img from '../images/os.png';
 import covid_img from '../images/covid-19.png';
 import pid_img from '../images/pid.png';
-
+import talkbox_img from '../images/talkbox.png';
 
 import Card from './Card.js';
 
@@ -43,7 +43,7 @@ const project_info = [
    {
        name : "TalkBox App",
        body : "An application which aids users with disability to communicate.\n\n\n",
-       image_src : "https://image.flaticon.com/icons/png/256/4213/4213732.png",
+       image_src : talkbox_img,
        github_link : "https://github.com/digengill/2311Project",
        live_link : null,
        

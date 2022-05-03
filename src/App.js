@@ -17,7 +17,7 @@ export default function App() {
             options={{
               background: {
                 color: {
-                  value: '#8f5dde',
+                  value: '#737CCF',
                 },
               },
               fpsLimit: 30,
