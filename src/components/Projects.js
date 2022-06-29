@@ -5,7 +5,7 @@ import os_img from '../images/os.png';
 import covid_img from '../images/covid-19.png';
 import pid_img from '../images/pid.png';
 import talkbox_img from '../images/talkbox.png';
-
+import console_img from '../images/console.png';
 import Card from './Card.js';
 
 const project_info = [
@@ -15,6 +15,13 @@ const project_info = [
         image_src : covid_img,
         github_link : "https://github.com/digengill/covid-tracker-app",
         live_link : "https://covid-tracker-a309c.web.app/" ,
+     },
+     {
+        name : "ConsoleTracker",
+        body : "A lightweight web application which allows admins to control console stations & arcades in a Gaming Cafe.",
+        image_src : console_img,
+        github_link : "https://github.com/ENG4000-Team-A/capstone-project",
+        live_link : null ,
      },
      {
         name : "Toy-Car Balancer PID Controller",

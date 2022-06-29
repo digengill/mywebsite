@@ -46,7 +46,7 @@ function Hero() {
                 </Navbar>
                 <div className='hero__text'>
                 <h1 className='hero__text__name'>Digen Gill</h1>
-                <h5 className='hero__text__description'>software engineering <br></br>@ yorku</h5><br></br>
+                <h5 className='hero__text__description'>software engineer</h5><br></br>
                 <div className="social__links">
                         <IconButton className="github__btn" color='inherit'  onClick={() => {window.open(
                         'https://github.com/digengill',
@@ -68,7 +68,7 @@ function Hero() {
                             spy={true}
                             smooth={true}
                             offset={-70}
-                            duration={300}>
+                            duration={500}>
                     <IconButton>
                         <ArrowDownwardIcon fontSize='large'/>
                     </IconButton>
