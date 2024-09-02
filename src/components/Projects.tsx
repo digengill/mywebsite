@@ -64,7 +64,7 @@ function Projects() {
                 <h3 className="text-lg font-mono font-medium text-lime-400 dark:text-white pb-5">
                     Covid Data Visualization
                 </h3>
-                <img src={covid_img} className="object-scale-down size-9/12 pb-5" />
+                <img src={covid_img} alt="no" className="object-scale-down size-9/12 pb-5" />
                 <p className="text-purple-300 font-mono pb-5">
                     {project_info[0].body}
                 </p>
@@ -72,6 +72,7 @@ function Projects() {
                     <a
                         href="https://covid-tracker-a309c.web.app/"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         <button className="bg-blue-500 mr-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                             Go to Website
@@ -80,6 +81,7 @@ function Projects() {
                     <a
                         href="https://github.com/digengill/covid-tracker-app"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                             Github
@@ -103,6 +105,7 @@ function Projects() {
                         <a
                             href="https://tools-by-ginny.vercel.app/jolt"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <button className="bg-blue-500 mr-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                                 Go to Website
@@ -111,7 +114,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="col-span-2 flex justify-center align-middle items-center justify-items-center">
-                    <img src={jolt_img} className="object-cover h-5/6" />
+                    <img src={jolt_img} alt="no"  className="object-cover h-5/6" />
                 </div>
             </div>
             <Breaker />
@@ -129,10 +132,11 @@ function Projects() {
                 <div className="col-span-1 flex flex-col justify-center justify-items-center items-center align-middle text-center">
                     <img
                         src={pid_img}
+                        alt="no"
                         className="object-fill w-full h-68 mb-5"
                     />
                     <div>
-                        <a href="https://youtu.be/hz2FInOl7EM" target="_blank">
+                        <a href="https://youtu.be/hz2FInOl7EM" target="_blank" rel="noopener noreferrer">
                             <button className="bg-blue-500 mr-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                                 Full Video
                             </button>
@@ -140,6 +144,7 @@ function Projects() {
                         <a
                             href="https://github.com/digengill/arduino-projects/tree/main/pid-car-balancer"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                                 Github
@@ -162,6 +167,7 @@ function Projects() {
                         <a
                             href="https://github.com/digengill/os-from-scratch"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <button className="bg-blue-500 mr-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                                 Github
@@ -170,7 +176,7 @@ function Projects() {
                     </div>
                 </div>
                 <div className="col-span-1 flex justify-center align-middle items-center justify-items-center">
-                    <img src={os_img} className="object-cover h-5/6" />
+                    <img src={os_img} alt="no"  className="object-cover h-5/6" />
                 </div>
             </div>
             <Breaker />
