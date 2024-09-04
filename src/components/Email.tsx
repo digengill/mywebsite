@@ -9,18 +9,13 @@ import {
   DialogTitle,
 } from "@headlessui/react";
 
-interface Props {
-  children?: React.ReactNode;
-  popup: boolean;
-  popupHandler: React.Dispatch<React.SetStateAction<boolean>>;
-}
 
 function Email() {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = React.useState(false);
   const [sendDisabled, disableSend] = React.useState(false);
   const [sendSuccess, setSendSuccess] = React.useState(false);
-  const [sendFail, setSendFail] = React.useState(false);
+  //const [sendFail, setSendFail] = React.useState(false);
   const mail_url: string = process.env.REACT_APP_MAIL_URL
     ? process.env.REACT_APP_MAIL_URL
     : "url_missing";
@@ -30,7 +25,7 @@ function Email() {
     disableSend(true);
     const formData = new FormData(event.currentTarget);
     const formJson = Object.fromEntries((formData as any).entries());
-    const email = formJson.user_email;
+    //const email = formJson.user_email;
     const name = formJson.name;
     const message = formJson.user_message;
     setLoading(true);
@@ -50,13 +45,13 @@ function Email() {
       .then(function (response) {
         console.log(response);
         setLoading(false);
-        setSendFail(false);
+        //setSendFail(false);
         setSendSuccess(true);
       })
       .catch(function (error) {
         console.log(error);
         disableSend(false);
-        setSendFail(true);
+        //setSendFail(true);
       });
     //handleClose();
   };
@@ -68,7 +63,7 @@ function Email() {
         }}
       >
         <div className="fixed rounded-full bg-blue-500 hover:bg-blue-700 bottom-4 right-4 opacity-50 hover:opacity-100 size-16 flex justify-center items-center border-20 align-middle">
-          <img className="p-2" src={msg_logo} />
+          <img className="p-2" alt="message logo" src={msg_logo} />
         </div>
       </button>
       <Dialog open={open} onClose={setOpen} className="relative z-10">

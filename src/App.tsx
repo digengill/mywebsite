@@ -22,12 +22,11 @@ import { getAnalytics, logEvent} from "firebase/analytics";
 
 export default function App() {
   const [currPage, setPage] = useState("hero");
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-
+  
   useEffect(() => {
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
     logEvent(analytics, 'login', {description: 'login'});
   }, []);
 
